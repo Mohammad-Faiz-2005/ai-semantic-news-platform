@@ -1,29 +1,16 @@
-# ─── Web Framework ──────────────────────────────────────────
-fastapi==0.111.0
-uvicorn[standard]==0.29.0
-
-# ─── Database ───────────────────────────────────────────────
-sqlalchemy==2.0.30
-psycopg2-binary==2.9.9
-alembic==1.13.1
-
-# ─── Validation & Settings ──────────────────────────────────
-pydantic==2.7.1
-pydantic-settings==2.2.1
-pydantic[email]==2.7.1
-
-# ─── Authentication ─────────────────────────────────────────
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-multipart==0.0.9
-
-# ─── ML / NLP ───────────────────────────────────────────────
-sentence-transformers==2.7.0
-faiss-cpu==1.13.2
-scikit-learn==1.4.2
-numpy==1.26.4
-torch==2.3.0
-
-# ─── Utilities ──────────────────────────────────────────────
-python-dotenv==1.0.1
-httpx==0.27.0
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic-settings
+python-jose
+passlib[bcrypt]
+python-multipart
+sentence-transformers
+faiss-cpu
+scikit-learn
+numpy
+torch
+python-dotenv
+httpx
