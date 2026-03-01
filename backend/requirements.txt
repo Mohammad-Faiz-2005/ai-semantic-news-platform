@@ -19,7 +19,7 @@ python-multipart==0.0.9
 
 # ─── ML / NLP ───────────────────────────────────────────────
 sentence-transformers==2.7.0
-faiss-cpu==1.8.0
+faiss-cpu==1.13.2
 scikit-learn==1.4.2
 numpy==1.26.4
 
