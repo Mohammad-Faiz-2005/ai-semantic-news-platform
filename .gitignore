@@ -1,0 +1,49 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Environment ──────────────────────────────────────────
+.env
+*.env
+!*.env.example
+
+# ─── Node / Frontend ──────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+
+# ─── ML Artefacts ─────────────────────────────────────────
+*.pt
+*.pth
+ml_pipeline/data/
+ml_pipeline/models/saved_models/*.pt
+ml_pipeline/models/saved_models/*.pkl
+ml_pipeline/models/saved_models/*.bin
+
+# ─── Vector Store (auto-regenerated) ──────────────────────
+vector_store/faiss_index.bin
+vector_store/id_mapping.pkl
+
+# ─── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────────
+*.log
+logs/
